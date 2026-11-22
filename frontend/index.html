@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>AI Cybersecurity Log Analyzer</title>
+  <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to content</a>
+
+  <header class="topbar">
+    <div class="brand"><span class="brand-mark" aria-hidden="true">&gt;_</span> AI Cybersecurity Log Analyzer</div>
+    <div class="topbar-actions">
+      <a id="download-report" class="btn btn-small" href="#" download hidden>Download report (.md)</a>
+      <button id="new-analysis" class="btn btn-small" type="button" hidden>Analyze another file</button>
+      <span id="backend-status" class="status status-pending" role="status">Backend: checking</span>
+    </div>
+  </header>
+
+  <main id="main" tabindex="-1">
+
+    <!-- SCREEN 1: upload -->
+    <section id="screen-upload" class="screen" aria-labelledby="upload-title">
+      <div class="upload-wrap">
+        <h1 id="upload-title" class="visually-hidden">Upload your security logs</h1>
+        <p class="eyebrow">// SECURITY LOG ANALYSIS TERMINAL</p>
+        <p class="lede">Upload a system or network log file. The analyzer parses it, looks for suspicious patterns with rules and
+          machine learning, scores the risk, and tells you what to check and how to fix it.</p>
+
+        <div id="dropzone" class="dropzone">
+          <svg class="dropzone-icon" viewBox="0 0 48 48" width="48" height="48" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+            <path d="M24 33V8M14 18l10-10 10 10M8 30v10h32V30" stroke-linecap="square"/>
+          </svg>
+          <p class="dropzone-title">Upload your security logs</p>
+          <p class="muted">Drag and drop a file here, or</p>
+          <button id="browse" class="btn" type="button">Browse Files</button>
+          <input id="file-input" type="file" class="visually-hidden" tabindex="-1" aria-label="Choose a log file">
+          <p class="muted small" id="limits-text">Supported formats and size limit load from the backend.</p>
+        </div>
+
+        <div id="selected-file" class="selected-file" hidden>
+          <div>
+            <span class="muted small">SELECTED FILE</span>
+            <div id="selected-name" class="selected-name"></div>
+            <div id="selected-size" class="muted small"></div>
+          </div>
+          <button id="clear-file" class="btn btn-small" type="button">Remove</button>
+        </div>
+
+        <div id="upload-error" class="alert alert-error" role="alert" hidden></div>
+
+        <div class="upload-actions">
+          <button id="analyze" class="btn btn-primary" type="button" disabled>Analyze Logs</button>
+        </div>
+
+        <p class="muted small formats">Reads Linux auth logs, syslog, Apache/Nginx access logs, CSV, JSON and JSON Lines.
+          Files are analyzed in memory and are not saved to disk.</p>
+      </div>
+    </section>
+
+    <!-- SCREEN 2: processing -->
+    <section id="screen-processing" class="screen" aria-labelledby="processing-title" hidden>
+      <div class="narrow">
+        <p class="eyebrow">// ANALYSIS IN PROGRESS</p>
+        <h1 id="processing-title">Analyzing <span id="processing-file" class="accent"></span></h1>
+        <p class="muted small">Each stage below is reported by the server as it actually starts and finishes.
+          Elapsed: <span id="processing-elapsed">0.0s</span></p>
+        <ol id="stage-list" class="stage-list" aria-live="polite"></ol>
+        <div id="processing-error" class="alert alert-error" role="alert" hidden>
+          <strong>Analysis failed.</strong>
+          <p id="processing-error-message"></p>
+        </div>
+        <div class="upload-actions">
+          <button id="processing-cancel" class="btn" type="button">Cancel</button>
+        </div>
+      </div>
+    </section>
+
+    <!-- SCREEN 3: dashboard (filled by app.js from the report) -->
+    <section id="screen-dashboard" class="screen screen-wide" aria-label="Security dashboard" hidden></section>
+
+    <!-- SCREEN 4: clean logs (filled by app.js from the report) -->
+    <section id="screen-clean" class="screen" aria-label="Clean security status" hidden></section>
+  </main>
+
+  <!-- SCREEN 5: threat details -->
+  <div id="panel-overlay" class="panel-overlay" hidden></div>
+  <aside id="threat-panel" class="threat-panel" role="dialog" aria-modal="true" aria-labelledby="panel-title" hidden>
+    <div class="panel-head">
+      <button id="panel-close" class="btn btn-small" type="button">&larr; Back to dashboard</button>
+    </div>
+    <div id="panel-body" class="panel-body"></div>
+  </aside>
+
+  <template id="tpl-checkmark">
+    <svg viewBox="0 0 24 24" width="56" height="56" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="square"><path d="M4 12.5l5 5L20 6.5"/></svg>
+  </template>
+
+  <script src="js/app.js"></script>
+</body>
+</html>

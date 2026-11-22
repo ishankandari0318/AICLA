@@ -1,0 +1,281 @@
+Sep 22 08:13:39 web01 sshd[5572]: Accepted password for alice from 192.168.1.21 port 49012 ssh2
+Sep 22 08:13:39 web01 sshd[25132]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 08:14:39 web01 sudo[25270]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 08:17:00 web01 CRON[8839]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 08:17:01 web01 CRON[9998]: pam_unix(cron:session): session closed for user root
+Sep 22 08:17:21 web01 sshd[8623]: Failed password for deploy from 10.0.0.5 port 40976 ssh2
+Sep 22 08:17:24 web01 sshd[19390]: Accepted publickey for deploy from 10.0.0.5 port 40976 ssh2
+Sep 22 08:17:24 web01 sshd[7515]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 08:20:53 web01 sshd[12327]: Accepted password for carol from 192.168.1.40 port 43552 ssh2
+Sep 22 08:20:53 web01 sshd[24872]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 08:27:25 web01 sshd[28798]: Accepted publickey for deploy from 10.0.0.5 port 58265 ssh2
+Sep 22 08:27:25 web01 sshd[4976]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 08:46:46 web01 sshd[25923]: Accepted password for alice from 192.168.1.21 port 55924 ssh2
+Sep 22 08:46:46 web01 sshd[18455]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 09:00:55 web01 sshd[15867]: Accepted password for carol from 192.168.1.40 port 49617 ssh2
+Sep 22 09:00:55 web01 sshd[1106]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 09:01:05 web01 sshd[28252]: Accepted password for alice from 192.168.1.21 port 51894 ssh2
+Sep 22 09:01:05 web01 sshd[27436]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 09:04:46 web01 sshd[22618]: Disconnected from user alice 192.168.1.21 port 55924
+Sep 22 09:04:46 web01 sshd[16574]: pam_unix(sshd:session): session closed for user alice
+Sep 22 09:10:05 web01 sshd[8892]: Disconnected from user alice 192.168.1.21 port 51894
+Sep 22 09:10:05 web01 sshd[29770]: pam_unix(sshd:session): session closed for user alice
+Sep 22 09:11:28 web01 sshd[25637]: Accepted publickey for deploy from 10.0.0.5 port 49830 ssh2
+Sep 22 09:11:28 web01 sshd[3377]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 09:12:28 web01 sudo[21354]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 09:17:00 web01 CRON[15413]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 09:17:01 web01 CRON[3538]: pam_unix(cron:session): session closed for user root
+Sep 22 09:17:53 web01 sshd[20864]: Disconnected from user carol 192.168.1.40 port 43552
+Sep 22 09:17:53 web01 sshd[17758]: pam_unix(sshd:session): session closed for user carol
+Sep 22 09:18:01 web01 sshd[25411]: Accepted publickey for deploy from 10.0.0.5 port 48679 ssh2
+Sep 22 09:18:01 web01 sshd[19394]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 09:20:35 web01 sshd[29194]: Accepted password for bob from 192.168.1.34 port 40181 ssh2
+Sep 22 09:20:35 web01 sshd[26232]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 09:24:39 web01 sshd[3848]: Disconnected from user alice 192.168.1.21 port 49012
+Sep 22 09:24:39 web01 sshd[20349]: pam_unix(sshd:session): session closed for user alice
+Sep 22 09:28:24 web01 sshd[14746]: Disconnected from user deploy 10.0.0.5 port 40976
+Sep 22 09:28:24 web01 sshd[8223]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 09:28:25 web01 sshd[22875]: Disconnected from user deploy 10.0.0.5 port 58265
+Sep 22 09:28:25 web01 sshd[18404]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 09:35:55 web01 sshd[17403]: Disconnected from user carol 192.168.1.40 port 49617
+Sep 22 09:35:55 web01 sshd[25967]: pam_unix(sshd:session): session closed for user carol
+Sep 22 09:37:57 web01 sshd[14491]: Accepted password for alice from 192.168.1.21 port 50885 ssh2
+Sep 22 09:37:57 web01 sshd[27287]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 09:55:13 web01 sshd[11311]: Accepted password for alice from 192.168.1.21 port 58585 ssh2
+Sep 22 09:55:13 web01 sshd[7967]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 09:56:44 web01 sshd[6394]: Accepted publickey for deploy from 10.0.0.5 port 53141 ssh2
+Sep 22 09:56:44 web01 sshd[13418]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 09:57:35 web01 sshd[13449]: Failed password for bob from 192.168.1.34 port 51029 ssh2
+Sep 22 09:57:39 web01 sshd[12763]: Accepted password for bob from 192.168.1.34 port 51029 ssh2
+Sep 22 09:57:39 web01 sshd[28770]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 09:57:44 web01 sudo[13793]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 09:58:53 web01 sshd[18766]: Accepted password for carol from 192.168.1.40 port 41916 ssh2
+Sep 22 09:58:53 web01 sshd[2997]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 10:01:44 web01 sshd[14056]: Accepted password for bob from 192.168.1.34 port 40775 ssh2
+Sep 22 10:01:44 web01 sshd[11756]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 10:02:44 web01 sudo[3274]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 10:07:53 web01 sshd[2643]: Disconnected from user carol 192.168.1.40 port 41916
+Sep 22 10:07:53 web01 sshd[20142]: pam_unix(sshd:session): session closed for user carol
+Sep 22 10:10:57 web01 sshd[9742]: Disconnected from user alice 192.168.1.21 port 50885
+Sep 22 10:10:57 web01 sshd[6216]: pam_unix(sshd:session): session closed for user alice
+Sep 22 10:15:47 web01 sshd[15700]: Accepted password for alice from 192.168.1.21 port 46278 ssh2
+Sep 22 10:15:47 web01 sshd[5593]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 10:16:35 web01 sshd[8170]: Disconnected from user bob 192.168.1.34 port 40181
+Sep 22 10:16:35 web01 sshd[6763]: pam_unix(sshd:session): session closed for user bob
+Sep 22 10:17:00 web01 CRON[24381]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 10:17:01 web01 CRON[10362]: pam_unix(cron:session): session closed for user root
+Sep 22 10:24:45 web01 sshd[14865]: Accepted password for bob from 192.168.1.34 port 57290 ssh2
+Sep 22 10:24:45 web01 sshd[7940]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 10:25:28 web01 sshd[4276]: Disconnected from user deploy 10.0.0.5 port 49830
+Sep 22 10:25:28 web01 sshd[3400]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 10:31:44 web01 sshd[26692]: Disconnected from user deploy 10.0.0.5 port 53141
+Sep 22 10:31:44 web01 sshd[26727]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 10:32:05 web01 sshd[5335]: Accepted password for bob from 192.168.1.34 port 55906 ssh2
+Sep 22 10:32:05 web01 sshd[24702]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 10:32:39 web01 sshd[27447]: Disconnected from user bob 192.168.1.34 port 51029
+Sep 22 10:32:39 web01 sshd[2423]: pam_unix(sshd:session): session closed for user bob
+Sep 22 10:34:01 web01 sshd[15038]: Disconnected from user deploy 10.0.0.5 port 48679
+Sep 22 10:34:01 web01 sshd[20121]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 10:35:47 web01 sshd[24937]: Accepted publickey for deploy from 10.0.0.5 port 53861 ssh2
+Sep 22 10:35:47 web01 sshd[26669]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 10:38:44 web01 sshd[12506]: Disconnected from user bob 192.168.1.34 port 40775
+Sep 22 10:38:44 web01 sshd[22020]: pam_unix(sshd:session): session closed for user bob
+Sep 22 10:47:13 web01 sshd[29989]: Disconnected from user alice 192.168.1.21 port 58585
+Sep 22 10:47:13 web01 sshd[22064]: pam_unix(sshd:session): session closed for user alice
+Sep 22 10:52:47 web01 sshd[16159]: Disconnected from user alice 192.168.1.21 port 46278
+Sep 22 10:52:47 web01 sshd[9185]: pam_unix(sshd:session): session closed for user alice
+Sep 22 11:15:24 web01 sshd[22854]: Accepted password for alice from 192.168.1.21 port 46883 ssh2
+Sep 22 11:15:24 web01 sshd[4368]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 11:17:00 web01 CRON[8683]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 11:17:01 web01 CRON[9903]: pam_unix(cron:session): session closed for user root
+Sep 22 11:17:41 web01 sshd[5532]: Accepted publickey for deploy from 10.0.0.5 port 47186 ssh2
+Sep 22 11:17:41 web01 sshd[17696]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 11:18:54 web01 sshd[22765]: Failed password for bob from 192.168.1.34 port 54132 ssh2
+Sep 22 11:19:02 web01 sshd[21419]: Accepted password for bob from 192.168.1.34 port 54132 ssh2
+Sep 22 11:19:02 web01 sshd[11286]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 11:25:41 web01 sshd[29216]: Disconnected from user deploy 10.0.0.5 port 47186
+Sep 22 11:25:41 web01 sshd[4592]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 11:27:35 web01 sshd[28332]: Accepted password for alice from 192.168.1.21 port 49108 ssh2
+Sep 22 11:27:35 web01 sshd[12954]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 11:28:35 web01 sudo[12641]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 11:28:55 web01 sshd[8288]: Accepted password for alice from 192.168.1.21 port 41268 ssh2
+Sep 22 11:28:55 web01 sshd[7539]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 11:30:22 web01 sshd[2454]: Accepted password for alice from 192.168.1.21 port 58893 ssh2
+Sep 22 11:30:22 web01 sshd[24225]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 11:36:02 web01 sshd[24584]: Disconnected from user bob 192.168.1.34 port 54132
+Sep 22 11:36:02 web01 sshd[10840]: pam_unix(sshd:session): session closed for user bob
+Sep 22 11:37:54 web01 sshd[17959]: Accepted password for carol from 192.168.1.40 port 52236 ssh2
+Sep 22 11:37:54 web01 sshd[15794]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 11:38:54 web01 sudo[8362]: carol : TTY=pts/0 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 11:39:47 web01 sshd[6072]: Disconnected from user deploy 10.0.0.5 port 53861
+Sep 22 11:39:47 web01 sshd[7222]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 11:40:30 web01 sshd[19667]: Accepted password for bob from 192.168.1.34 port 43928 ssh2
+Sep 22 11:40:30 web01 sshd[9067]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 11:47:05 web01 sshd[19881]: Disconnected from user bob 192.168.1.34 port 55906
+Sep 22 11:47:05 web01 sshd[16488]: pam_unix(sshd:session): session closed for user bob
+Sep 22 11:47:30 web01 sshd[21295]: Disconnected from user bob 192.168.1.34 port 43928
+Sep 22 11:47:30 web01 sshd[3686]: pam_unix(sshd:session): session closed for user bob
+Sep 22 11:47:54 web01 sshd[12078]: Disconnected from user carol 192.168.1.40 port 52236
+Sep 22 11:47:54 web01 sshd[1689]: pam_unix(sshd:session): session closed for user carol
+Sep 22 11:54:45 web01 sshd[7591]: Disconnected from user bob 192.168.1.34 port 57290
+Sep 22 11:54:45 web01 sshd[24361]: pam_unix(sshd:session): session closed for user bob
+Sep 22 11:54:46 web01 sshd[11559]: Accepted password for bob from 192.168.1.34 port 59004 ssh2
+Sep 22 11:54:46 web01 sshd[16236]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 11:55:35 web01 sshd[22960]: Disconnected from user alice 192.168.1.21 port 49108
+Sep 22 11:55:35 web01 sshd[9748]: pam_unix(sshd:session): session closed for user alice
+Sep 22 12:02:00 web01 sshd[22369]: Failed password for alice from 192.168.1.21 port 58033 ssh2
+Sep 22 12:02:03 web01 sshd[4056]: Accepted password for alice from 192.168.1.21 port 58033 ssh2
+Sep 22 12:02:03 web01 sshd[25692]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 12:05:47 web01 sshd[28520]: Accepted publickey for deploy from 10.0.0.5 port 48493 ssh2
+Sep 22 12:05:47 web01 sshd[21894]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 12:06:47 web01 sudo[26482]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 12:08:43 web01 sshd[19863]: Accepted password for alice from 192.168.1.21 port 53580 ssh2
+Sep 22 12:08:43 web01 sshd[7371]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 12:17:00 web01 CRON[12005]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 12:17:01 web01 CRON[11476]: pam_unix(cron:session): session closed for user root
+Sep 22 12:25:03 web01 sshd[14317]: Disconnected from user alice 192.168.1.21 port 58033
+Sep 22 12:25:03 web01 sshd[16913]: pam_unix(sshd:session): session closed for user alice
+Sep 22 12:28:24 web01 sshd[29971]: Disconnected from user alice 192.168.1.21 port 46883
+Sep 22 12:28:24 web01 sshd[29662]: pam_unix(sshd:session): session closed for user alice
+Sep 22 12:28:55 web01 sshd[12457]: Disconnected from user alice 192.168.1.21 port 41268
+Sep 22 12:28:55 web01 sshd[11000]: pam_unix(sshd:session): session closed for user alice
+Sep 22 12:34:37 web01 sshd[17640]: Accepted publickey for deploy from 10.0.0.5 port 57403 ssh2
+Sep 22 12:34:37 web01 sshd[3625]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 12:36:16 web01 sshd[12436]: Accepted password for bob from 192.168.1.34 port 48690 ssh2
+Sep 22 12:36:16 web01 sshd[29864]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 12:37:15 web01 sshd[10779]: Accepted password for bob from 192.168.1.34 port 43486 ssh2
+Sep 22 12:37:15 web01 sshd[28579]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 12:37:16 web01 sudo[9004]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 12:38:22 web01 sshd[27427]: Disconnected from user alice 192.168.1.21 port 58893
+Sep 22 12:38:22 web01 sshd[18643]: pam_unix(sshd:session): session closed for user alice
+Sep 22 12:44:37 web01 sshd[20498]: Disconnected from user deploy 10.0.0.5 port 57403
+Sep 22 12:44:37 web01 sshd[3226]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 12:52:51 web01 sshd[13403]: Accepted publickey for deploy from 10.0.0.5 port 44090 ssh2
+Sep 22 12:52:51 web01 sshd[3582]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 12:59:43 web01 sshd[17199]: Disconnected from user alice 192.168.1.21 port 53580
+Sep 22 12:59:43 web01 sshd[14095]: pam_unix(sshd:session): session closed for user alice
+Sep 22 13:02:08 web01 sshd[4753]: Accepted password for carol from 192.168.1.40 port 40376 ssh2
+Sep 22 13:02:08 web01 sshd[23338]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 13:13:47 web01 sshd[16879]: Disconnected from user deploy 10.0.0.5 port 48493
+Sep 22 13:13:47 web01 sshd[21537]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 13:15:18 web01 sshd[2501]: Accepted password for carol from 192.168.1.40 port 46300 ssh2
+Sep 22 13:15:18 web01 sshd[22668]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 13:16:18 web01 sudo[10482]: carol : TTY=pts/0 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 13:17:00 web01 CRON[18699]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 13:17:01 web01 CRON[3640]: pam_unix(cron:session): session closed for user root
+Sep 22 13:21:22 web01 sshd[24194]: Failed password for bob from 192.168.1.34 port 47216 ssh2
+Sep 22 13:21:25 web01 sshd[8501]: Accepted password for bob from 192.168.1.34 port 47216 ssh2
+Sep 22 13:21:25 web01 sshd[3208]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 13:21:49 web01 sshd[1212]: Accepted publickey for deploy from 10.0.0.5 port 49115 ssh2
+Sep 22 13:21:49 web01 sshd[25864]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 13:22:46 web01 sshd[8002]: Disconnected from user bob 192.168.1.34 port 59004
+Sep 22 13:22:46 web01 sshd[17750]: pam_unix(sshd:session): session closed for user bob
+Sep 22 13:25:16 web01 sshd[10338]: Disconnected from user bob 192.168.1.34 port 48690
+Sep 22 13:25:16 web01 sshd[6169]: pam_unix(sshd:session): session closed for user bob
+Sep 22 13:27:18 web01 sshd[29027]: Disconnected from user carol 192.168.1.40 port 46300
+Sep 22 13:27:18 web01 sshd[8628]: pam_unix(sshd:session): session closed for user carol
+Sep 22 13:30:19 web01 sshd[7671]: Accepted password for carol from 192.168.1.40 port 46901 ssh2
+Sep 22 13:30:19 web01 sshd[23527]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 13:32:40 web01 sshd[9021]: Accepted password for alice from 192.168.1.21 port 45607 ssh2
+Sep 22 13:32:40 web01 sshd[6354]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 13:38:08 web01 sshd[26185]: Disconnected from user carol 192.168.1.40 port 40376
+Sep 22 13:38:08 web01 sshd[22003]: pam_unix(sshd:session): session closed for user carol
+Sep 22 13:38:57 web01 sshd[8757]: Accepted publickey for deploy from 10.0.0.5 port 45064 ssh2
+Sep 22 13:38:57 web01 sshd[29331]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 13:39:57 web01 sudo[27210]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 13:42:40 web01 sshd[14833]: Accepted password for bob from 192.168.1.34 port 45242 ssh2
+Sep 22 13:42:40 web01 sshd[20543]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 13:43:40 web01 sudo[13504]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 13:56:15 web01 sshd[7517]: Disconnected from user bob 192.168.1.34 port 43486
+Sep 22 13:56:15 web01 sshd[6008]: pam_unix(sshd:session): session closed for user bob
+Sep 22 13:59:00 web01 sshd[11366]: Accepted publickey for deploy from 10.0.0.5 port 59125 ssh2
+Sep 22 13:59:00 web01 sshd[9544]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 14:00:00 web01 sudo[24468]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 14:02:17 web01 sshd[5400]: Accepted password for carol from 192.168.1.40 port 43394 ssh2
+Sep 22 14:02:17 web01 sshd[9666]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 14:02:57 web01 sshd[29882]: Disconnected from user deploy 10.0.0.5 port 45064
+Sep 22 14:02:57 web01 sshd[14510]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:03:17 web01 sudo[4507]: carol : TTY=pts/0 ; PWD=/home/carol ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 14:04:12 web01 sshd[23846]: Accepted password for carol from 192.168.1.40 port 53382 ssh2
+Sep 22 14:04:12 web01 sshd[10688]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 14:05:19 web01 sshd[17561]: Disconnected from user carol 192.168.1.40 port 46901
+Sep 22 14:05:19 web01 sshd[17008]: pam_unix(sshd:session): session closed for user carol
+Sep 22 14:05:25 web01 sshd[3321]: Disconnected from user bob 192.168.1.34 port 47216
+Sep 22 14:05:25 web01 sshd[17847]: pam_unix(sshd:session): session closed for user bob
+Sep 22 14:07:26 web01 sshd[7525]: Accepted password for bob from 192.168.1.34 port 50171 ssh2
+Sep 22 14:07:26 web01 sshd[5828]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 14:08:26 web01 sudo[9023]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 14:08:40 web01 sshd[21971]: Disconnected from user alice 192.168.1.21 port 45607
+Sep 22 14:08:40 web01 sshd[23549]: pam_unix(sshd:session): session closed for user alice
+Sep 22 14:09:54 web01 sshd[10861]: Accepted publickey for deploy from 10.0.0.5 port 45702 ssh2
+Sep 22 14:09:54 web01 sshd[14306]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 14:11:06 web01 sshd[1904]: Accepted publickey for deploy from 10.0.0.5 port 57570 ssh2
+Sep 22 14:11:06 web01 sshd[4779]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 14:11:54 web01 sshd[10957]: Disconnected from user deploy 10.0.0.5 port 45702
+Sep 22 14:11:54 web01 sshd[10401]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:13:53 web01 sshd[26427]: Accepted password for bob from 192.168.1.34 port 50626 ssh2
+Sep 22 14:13:53 web01 sshd[2832]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 14:14:51 web01 sshd[21267]: Disconnected from user deploy 10.0.0.5 port 44090
+Sep 22 14:14:51 web01 sshd[29236]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:14:53 web01 sudo[2051]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 14:17:00 web01 CRON[5534]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 14:17:01 web01 CRON[5942]: pam_unix(cron:session): session closed for user root
+Sep 22 14:17:49 web01 sshd[12149]: Disconnected from user deploy 10.0.0.5 port 49115
+Sep 22 14:17:49 web01 sshd[10105]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:30:12 web01 sshd[14777]: Disconnected from user carol 192.168.1.40 port 53382
+Sep 22 14:30:12 web01 sshd[22788]: pam_unix(sshd:session): session closed for user carol
+Sep 22 14:41:00 web01 sshd[8821]: Disconnected from user deploy 10.0.0.5 port 59125
+Sep 22 14:41:00 web01 sshd[9703]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:44:48 web01 sshd[15014]: Accepted password for bob from 192.168.1.34 port 54478 ssh2
+Sep 22 14:44:48 web01 sshd[19379]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 14:45:48 web01 sudo[3465]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 14:46:06 web01 sshd[6851]: Disconnected from user deploy 10.0.0.5 port 57570
+Sep 22 14:46:06 web01 sshd[20024]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 14:52:28 web01 sshd[24569]: Accepted password for carol from 192.168.1.40 port 54502 ssh2
+Sep 22 14:52:28 web01 sshd[17540]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 14:55:53 web01 sshd[14145]: Disconnected from user bob 192.168.1.34 port 50626
+Sep 22 14:55:53 web01 sshd[9773]: pam_unix(sshd:session): session closed for user bob
+Sep 22 14:56:25 web01 sshd[26514]: Accepted password for carol from 192.168.1.40 port 45293 ssh2
+Sep 22 14:56:25 web01 sshd[18378]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 15:00:40 web01 sshd[16337]: Disconnected from user bob 192.168.1.34 port 45242
+Sep 22 15:00:40 web01 sshd[18338]: pam_unix(sshd:session): session closed for user bob
+Sep 22 15:08:30 web01 sshd[7239]: Accepted password for bob from 192.168.1.34 port 55498 ssh2
+Sep 22 15:08:30 web01 sshd[4090]: pam_unix(sshd:session): session opened for user bob(uid=1000) by (uid=0)
+Sep 22 15:09:26 web01 sshd[21030]: Disconnected from user bob 192.168.1.34 port 50171
+Sep 22 15:09:26 web01 sshd[28844]: pam_unix(sshd:session): session closed for user bob
+Sep 22 15:09:30 web01 sudo[15124]: bob : TTY=pts/0 ; PWD=/home/bob ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 15:13:29 web01 sshd[10299]: Accepted publickey for deploy from 10.0.0.5 port 45560 ssh2
+Sep 22 15:13:29 web01 sshd[17890]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 15:14:17 web01 sshd[6093]: Disconnected from user carol 192.168.1.40 port 43394
+Sep 22 15:14:17 web01 sshd[9924]: pam_unix(sshd:session): session closed for user carol
+Sep 22 15:17:00 web01 CRON[8577]: pam_unix(cron:session): session opened for user root(uid=0) by (uid=0)
+Sep 22 15:17:01 web01 CRON[13551]: pam_unix(cron:session): session closed for user root
+Sep 22 15:35:20 web01 sshd[21043]: Accepted publickey for deploy from 10.0.0.5 port 57800 ssh2
+Sep 22 15:35:20 web01 sshd[27447]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 15:35:48 web01 sshd[5852]: Accepted password for alice from 192.168.1.21 port 52098 ssh2
+Sep 22 15:35:48 web01 sshd[15083]: pam_unix(sshd:session): session opened for user alice(uid=1000) by (uid=0)
+Sep 22 15:36:48 web01 sudo[11101]: alice : TTY=pts/0 ; PWD=/home/alice ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 15:38:20 web01 sshd[22884]: Disconnected from user deploy 10.0.0.5 port 57800
+Sep 22 15:38:20 web01 sshd[27774]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 15:42:05 web01 sshd[14879]: Failed password for carol from 192.168.1.40 port 41664 ssh2
+Sep 22 15:42:12 web01 sshd[2444]: Accepted password for carol from 192.168.1.40 port 41664 ssh2
+Sep 22 15:42:12 web01 sshd[1116]: pam_unix(sshd:session): session opened for user carol(uid=1000) by (uid=0)
+Sep 22 15:51:46 web01 sshd[22174]: Accepted publickey for deploy from 10.0.0.5 port 41775 ssh2
+Sep 22 15:51:46 web01 sshd[4224]: pam_unix(sshd:session): session opened for user deploy(uid=1000) by (uid=0)
+Sep 22 15:52:46 web01 sudo[24862]: deploy : TTY=pts/0 ; PWD=/home/deploy ; USER=root ; COMMAND=/usr/bin/apt update
+Sep 22 15:55:30 web01 sshd[14879]: Disconnected from user bob 192.168.1.34 port 55498
+Sep 22 15:55:30 web01 sshd[14470]: pam_unix(sshd:session): session closed for user bob
+Sep 22 16:00:12 web01 sshd[21876]: Disconnected from user carol 192.168.1.40 port 41664
+Sep 22 16:00:12 web01 sshd[9583]: pam_unix(sshd:session): session closed for user carol
+Sep 22 16:04:28 web01 sshd[15611]: Disconnected from user carol 192.168.1.40 port 54502
+Sep 22 16:04:28 web01 sshd[6215]: pam_unix(sshd:session): session closed for user carol
+Sep 22 16:14:25 web01 sshd[11621]: Disconnected from user carol 192.168.1.40 port 45293
+Sep 22 16:14:25 web01 sshd[17010]: pam_unix(sshd:session): session closed for user carol
+Sep 22 16:14:48 web01 sshd[5884]: Disconnected from user bob 192.168.1.34 port 54478
+Sep 22 16:14:48 web01 sshd[18877]: pam_unix(sshd:session): session closed for user bob
+Sep 22 16:23:48 web01 sshd[27087]: Disconnected from user alice 192.168.1.21 port 52098
+Sep 22 16:23:48 web01 sshd[29203]: pam_unix(sshd:session): session closed for user alice
+Sep 22 16:34:29 web01 sshd[11983]: Disconnected from user deploy 10.0.0.5 port 45560
+Sep 22 16:34:29 web01 sshd[4060]: pam_unix(sshd:session): session closed for user deploy
+Sep 22 16:36:46 web01 sshd[27233]: Disconnected from user deploy 10.0.0.5 port 41775
+Sep 22 16:36:46 web01 sshd[29235]: pam_unix(sshd:session): session closed for user deploy
